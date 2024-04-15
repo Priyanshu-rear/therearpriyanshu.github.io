@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Reasume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: "Nunito", sans-serif;
+        }
+
+        body {
+            background: #f1f1f1;
+        }
+        .left {
+            /* height: 1100px; */
+            width: 30vw;
+            /* background: #000; */
+            margin: auto;
+            float: left;
+            margin-left: 100px;
+            border-radius: 10px 10px 0 0;
+            box-shadow: 10px 20px 30px;
+            padding-bottom: 20px;
+        }
+
+        .left img {
+            height: 500px;
+            width: 30vw;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .left img:hover {
+            box-shadow: 10px 5px 40px;
+            border: 1px solid white;
+            border-radius: 10px;
+        }
+
+        .main {
+            margin: auto;
+            width: 90%;
+            height: 18px;
+            background-color: lightgray;
+            color: white;
+            font-size: 15px;
+            border-radius: 10px;
+        }
+
+        .main .html {
+            width: 80%;
+            height: 100%;
+            text-align: center;
+            background: #009688;
+            border-radius: 10px;
+        }
+
+        .main .photography {
+            width: 60%;
+            height: 100%;
+            text-align: center;
+            background: #009688;
+            border-radius: 10px;
+        }
+
+        .main .css {
+            width: 70%;
+            height: 100%;
+            text-align: center;
+            background: #009688;
+            border-radius: 10px;
+        }
+
+        .main .java-script {
+            width: 30%;
+            height: 100%;
+            text-align: center;
+            background: #009688;
+            border-radius: 10px;
+        }
+
+        .maina {
+            margin: auto;
+            width: 90%;
+            height: 20px;
+            background-color: lightgray;
+            color: white;
+            border-radius: 10px;
+        }
+
+        .maina .english {
+            width: 85%;
+            height: 100%;
+            text-align: center;
+            background: #009688;
+            border-radius: 10px
+        }
+
+        .maina .hindi {
+            width: 90%;
+            height: 100%;
+            text-align: center;
+            background: #009688;
+            border-radius: 10px
+        }
+
+        .left h3 {
+            padding-left: 10px;
+            font-size: 25px;
+        }
+
+        .left i {
+            padding-right: 10px;
+            color: #009688;
+        }
+
+        .left h2 {
+            padding-left: 40px;
+
+        }
+
+        .left h1 {
+            padding-left: 5px;
+        }
+
+        .right {
+            height: 500px;
+            width: 58vw;
+            margin: auto;
+            float: right;
+            margin-right: 50px;
+            color: aliceblue;
+        }
+
+        .right .top {
+            background-color: #fff;
+            color: #000;
+            border-radius:  20px 20px 20px 20px ;
+        }
+
+        .right .bottom {
+            background: #fff;
+            color: #000;
+            height: 350px;
+            border-radius: 20px 20px 20px 20px ;
+        }
+
+        .right .bottom:hover {
+            box-shadow: 10px 20px 40px;
+
+        }
+
+        .right .top:hover {
+            box-shadow: 10px 20px 40px;
+
+        }
+
+        .right .top {
+            box-shadow: 5px 5px 20px;
+
+        }
+
+        .right .bottom {
+            box-shadow: 5px 5px 20px;
+
+        }
+        .right .top h1 {
+            padding-top: 15px;
+            padding-left: 15px;
+        }
+
+        .right .top i {
+            padding-right: 10px;
+            color: #009688;
+        }
+        .right .top h3 {
+            padding-left: 20px;
+        }
+        .right .top a{
+            color: white;
+            border-radius: 4px;
+            width: auto;
+            text-decoration: none;
+            padding:  0 10px;
+            background-color: #009688;
+        }
+        .right .top h4 {
+            padding-left: 30px;
+        }
+        .right .top p {
+            padding-left: 50px;
+        }
+        .right .bottom h1 {
+            padding-top: 15px;
+            padding-left: 15px;
+        }
+
+        .right .bottom i {
+            padding-right: 10px;
+            color: #009688;
+        }
+        .right .bottom h3 {
+            padding-left: 20px;
+        }
+        .right .bottom a{
+            color: white;
+            border-radius: 4px;
+            width: auto;
+            padding:  0 10px;
+
+            text-decoration: none;
+            background-color: #009688;
+        }
+        .right .bottom h4 {
+            padding-left: 30px;
+        }
+        .right .bottom p {
+            padding-left: 50px;
+        }
+        hr {
+            width: 95%;
+        }
+        footer {
+            color: white;
+            margin-top: 20px;
+            text-align: center;
+            float: left;
+            background-color: #009688;
+            width: 98vw;
+            margin-bottom: 20px;
+            height: 130px;
+            border-radius: 20px;
+        }
+        footer i {
+            color: white;
+        }
+        footer i:hover {
+            font-size: 40px;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="left">
+        <img src="Priyan.jpg" alt="Priyanshu(REAR)" title="Priyanshu(REAR)">
+        <br>
+        <h3><i class="fa-solid fa-briefcase"></i>Devloper</h3>
+        <h3> <i class="fa-solid fa-house-chimney-window"></i>India,UP</h3>
+        <h3><i class="fa-regular fa-envelope"></i>rearpriyanshu@gmail.com</h3>
+        <h3><i class="fa-solid fa-phone"></i>7409147462</h3>
+        <hr>
+        <h1><i class="fa-solid fa-star-of-life"></i>Skills</h1>
+        <h2>HTML</h2>
+        <div class="main">
+            <div class="html">80%</div>
+        </div>
+        <h2>Photography</h2>
+        <div class="main">
+            <div class="photography">60%</div>
+        </div>
+        <h2>CSS</h2>
+        <div class="main">
+            <div class="css">70%</div>
+        </div>
+        <h2>Java Script</h2>
+        <div class="main">
+            <div class="java-script">30%</div>
+        </div>
+        <hr>
+        <h1><i class="fa-solid fa-earth-americas"></i>Language</h1>
+        <h2>English</h2>
+        <div class="maina">
+            <div class="english"></div>
+        </div>
+
+        <h2>Hindi</h2>
+        <div class="maina">
+            <div class="hindi"></div>
+        </div>
+    </div>
+    <div class="right">
+        <div class="top">
+            <h1><i class="fa-solid fa-suitcase"></i>Work Experience</h1>
+            <h3>Front End Devloper / <a href="https://mskinstitute.gihub.io">mskinstitute.in</a></h3>
+            <h4><i class="fa-solid fa-calendar"></i>Nov 2023- <span>Current</span></h4>
+            <!-- <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, aliquid.</p> -->
+            <!-- <hr>
+            <h3>Web Developer / something.com</h3>
+            <h4><i class="fa-light fa-calendar-days"></i>Feb 2024-<span>Current</span> </h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic perspiciatis temporibus quam vitae. Nisi,
+                ducimus.</p> -->
+        </div>
+        <div class="bottom">
+            <h1><i class="fa-solid fa-book-open-reader"></i>Education</h1>
+            <h3><a href="https://mskinstitute.gihub.io">Saint Ramas Public School</a></h3>
+            <p>High School</p>
+            <h4><i class="fa-solid fa-calendar"></i>Nov 2023- <span>Current</span></h4>
+            <hr>
+            <h3><a href="https://mskinstitute.gihub.io">MSK Institute</a></h3>
+            <p>Full Stack Devlopment</p>
+            <h4><i class="fa-solid fa-calendar"></i>Nov 2023- <span>Current</span></h4>
+        </div>
+    </div>
+    <footer>
+        <h1>Find me on social media.</h1>
+        <h1> <a href="https://www.instagram.com/itz_rear_priyanshu/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/Priyanshu-rear"><i class="fa-brands fa-github"></i></a>
+            <a href="rearpriyanshu@gmail.com"><i class="fa-regular fa-envelope"></i></a></h1>
+    </footer>
+</body>
+
+</html>
